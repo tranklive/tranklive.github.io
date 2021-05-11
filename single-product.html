@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="light">
+    
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Munix Ecommerce Mobile HTML Template" />
+        <meta name="keywords" content="Munix Ecommerce Mobile HTML Template" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Munix">
+        <meta name="msapplication-TileImage" content="img/icon-144.png">
+        <link rel="icon" href="img/favicon.png" sizes="35x35" type="image/png">
+           <title>Munix - Ecommerce Mobile HTML Template</title>
+        <!--Stylesheet--> 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Web App Manifest-->
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body>
+        <!-- Internet Connection -->
+        <div class="alert" id="checkOnline"></div>
+        <!-- Page loader -->
+        <div id="loader-page">
+            <div class="loader" id="line">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+        </div>
+        <!-- page content -->
+        <main class="main-content flex-shrink-0">
+             <!-- Header Area-->
+            <div class="header-area">
+                <div class="container d-flex h-100 align-items-center justify-content-between ps-0">
+                    <div class="col">
+                        <a href="home.html" class="btn navbar-toggler icon-boxed rounded-end"><i class="fa fa-chevron-left"></i></a>
+                        </div>
+                        <div class="col-auto me-2">
+                            <a class="btn-favorite text-color1 fs-20"><i class="fa fa-heart"></i></a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="btn navbar-toggler text-color1"><i class="fa fa-share"></i></a>
+                        </div>
+                    </div>
+            </div>
+            <div class="content-wrapper">
+                 <!-- Product image slider -->
+            <section class="slider-section">
+                <div class="product-details-slider owl-carousel">
+                <div class="product-slide-image" style="background-image: url('img/product/product-10.jpg')"></div>
+                <div class="product-slide-image" style="background-image: url('img/product/product-11.jpg')"></div>
+                <div class="product-slide-image" style="background-image: url('img/product/product-12.jpg')"></div>
+                </div>
+            </section>
+            <!-- Product details -->
+            <section class="product-details p-3">
+                <div class="container">
+                    <div class="product-ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <small> (16) </small>
+                    </div>
+                    <h6 class="mt-2 mb-4">Gaming-Notebook 5</h6>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p class="price mt-1 mb-0 text-color1 fs-18 fw-bold"> $650 <del class="old-price ms-2 text-color7 fs-14">$73.45</del>  </p>
+                        <div class="product-quantity">
+                            <form action="single-product.html#">
+                                <div class="counter-wrapper d-flex align-items-center">
+                                  <button class="minus-btn"><i class="fa fa-minus"></i></button>
+                                  <input type="text" class="form-control mx-2" value="1" min="1">
+                                  <button class="plus-btn"><i class="fa fa-plus"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="accordion mt-4" id="accordionExample">
+                        <!-- Product Description -->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Description
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu neque ut ipsum tempor varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam eget ligula eget sem lacinia varius. Maecenas maximus vitae ligula sit amet placerat. Suspendisse elementum porttitor erat tempus malesuada. Vestibulum lorem ipsum, congue sed risus cursus, condimentum luctus nibh. Ut convallis ultrices lorem. Donec blandit purus ac lacus finibus, nec feugiat elit auctor.</p>
+                            </div>
+                          </div>
+                        </div>
+                         <!-- Product Specifications -->
+                         <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Specifications
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <div class="product-specification">
+                                    <ul>
+                                        <li> <i class="fa fa-check"></i> Full HD Camcorder</li>
+                                        <li> <i class="fa fa-check"></i> Dual Video Recording</li>
+                                        <li> <i class="fa fa-check"></i> type battery operation</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                          </div>
+                        <!-- Review Wrapper -->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Reviews 
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="products-review">
+                                    <div class="thumbnail-review me-3">
+                                        <img src="img/avatar/user-1.jpg" alt="image">
+                                    </div>
+                                    <div class="review-details">
+                                        <h6>Lava Sona</h6>
+                                        <small class="date"> <i class="fa fa-calendar-alt text-color2"></i> 12 Dec 2020</small>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in viverra ex, vitae vestibulum arcu. </p>
+                                    </div>
+                                </div>
+                                <div class="products-review">
+                                    <div class="thumbnail-review me-3">
+                                        <img src="img/avatar/user-2.jpg" alt="image">
+                                    </div>
+                                    <div class="review-details">
+                                        <h6>Kerry Mann</h6>
+                                        <small class="date"> <i class="fa fa-calendar-alt text-color2"></i> 15 Dec 2020</small>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in viverra ex, vitae vestibulum arcu. </p>
+                                    </div>
+                                </div>
+                                <div class="review-form mt-4">
+                                    <h6>Add Your Review</h6>
+                                    <form id="contactForm" novalidate="true">
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <textarea name="message" class="form-control" cols="30" rows="5"  placeholder="Your Message"></textarea>
+                                                </div> 
+                                                <button class="btn btn-sm btn-primary" type="submit">Save Review</button>
+                                             </div>    
+                                        </div>         
+                                    </form>   
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+            </section> 
+            <!-- Related Products -->
+            <section class="featured-products mt-20">
+            <div class="container">
+                <div class="title-section d-flex align-items-center justify-content-between">
+                    <h6>Related Products</h6>
+                    <a href="catagory.html" class="btn btn-darkblue text-color1 fw-bold">More</a>
+                </div>
+                <div class="featured-products-area owl-carousel">
+                    <div class="product-item-card p-2">
+                        <a href="single-product.html">
+                            <img src="img/product/product-7.jpg" alt="image">
+                        </a>
+                        <div class="products-content px-2">
+                            <span class="product-title fw-bold">Speaker 2020</span>
+                            <p class="price mt-1 mb-0"> $190 <del class="old-price ms-2">$553.45</del>  </p>
+                        </div>
+                    </div>
+                    <div class="product-item-card p-2">
+                        <a href="single-product.html">
+                            <img src="img/product/product-8.jpg" alt="image">
+                        </a>
+                        <div class="products-content px-2">
+                            <span class="product-title fw-bold"> Controller</span>
+                            <p class="price mt-1 mb-0"> $150  </p>
+                        </div>
+                    </div>
+                    <div class="product-item-card p-2">
+                        <a href="single-product.html">
+                            <img src="img/product/product-9.jpg" alt="image">
+                        </a>
+                        <div class="products-content px-2">
+                            <span class="product-title fw-bold">Wireless Mouse</span>
+                            <p class="price mt-1 mb-0"> $150  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            </div>
+             <!-- Footer  -->
+            <div class="footer-btn-item">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center justify-content-between">
+                        <div class="col text-center">
+                            <a href="cart.html" class="btn w-50 btn-primary" data-color="blue">Add to cart </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+     
+                <!-- template js files -->
+                <script src="js/jquery.min.js"></script>
+                <script src="js/popper.min.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/jquery.waypoints.min.js"></script>
+                <script src="js/jquery-ui.min.js"></script>
+                <script src="js/wow.min.js"></script>
+                <script src="js/owl.carousel.min.js"></script>
+                <script src="js/dark-mode.js"></script>
+                <script src="js/custom-scripts.js"></script>
+                <!-- Progressive Web App -->
+                <script src="js/pwa.js"></script>
+            </body>	
+        
+        </html>
