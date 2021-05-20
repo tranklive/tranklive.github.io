@@ -1,13 +1,13 @@
 {
-  "name": "Munix",
-  "short_name": "Munix",
+  "name": "TrankLive",
+  "short_name": "TrankLive",
   "lang": "en-US",
-  "start_url": "https://appmunix.takstok.com/home.html",
+  "start_url": "https://trank.live/index.html",
   "display": "standalone",
   "background_color": "#eee",
   "theme_color": "#eee",
-  "description": "Munix - Ecommerce Mobile HTML Template",
-  "categories": ["mobile", "shop", "ecommerce"],
+  "description": "TrankLive - Radio Station",
+  "categories": ["mobile", "radio", "ecommerce"],
   "icons": [{
     "src": "img/icons/icon-72.png",
     "sizes": "72x72",
