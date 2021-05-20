@@ -740,7 +740,6 @@ var Lobibox = Lobibox || {};
         this._init();
         this.debug(this);
     }
-
     LobiboxConfirm.prototype = $.extend({}, LobiboxBase, {
         constructor: LobiboxConfirm,
 
