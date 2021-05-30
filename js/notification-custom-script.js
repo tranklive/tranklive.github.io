@@ -504,7 +504,7 @@ $(function () {
                 sound: true,
                 title: 'TrankLive Радио!',
                 showAfterLoad: true,    
-                position: 'top right',
+                position: 'bottom left',
                 rounded:true,
                 msg: "Иногда <b>шаг навстречу</b> <br> другому - величайшее путешествие в <b>ЖИЗНИ</b>." 
                 
