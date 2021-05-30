@@ -502,11 +502,11 @@ $(function () {
             Lobibox.notify('default', {
                 delay: 10000,
                 sound: true,
-                title: 'Welcome to Munix!',
+                title: 'TrankLive Радио!',
                 showAfterLoad: true,    
                 position: 'top right',
                 rounded:true,
-                msg: "You can easy add this web site to your  <b>Home screen</b> instant access and browse faster." 
+                msg: "Иногда <b>шаг на встречу</b> <br> другому, величайшее путешествие в <b>ЖИЗНИ</b>." 
                 
                 });
         })();
