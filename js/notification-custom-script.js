@@ -502,7 +502,7 @@ $(function () {
             Lobibox.notify('default', {
                 delay: 10000,
                 sound: true,
-                title: 'Ukraina.Live Радио!',
+                title: 'Ukraina.Live',
                 showAfterLoad: true,    
                 position: 'bottom left',
                 rounded:true,
