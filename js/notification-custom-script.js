@@ -502,11 +502,11 @@ $(function () {
             Lobibox.notify('default', {
                 delay: 10000,
                 sound: true,
-                title: 'TrankLive Радио!',
+                title: 'Ukraina.Live Радио!',
                 showAfterLoad: true,    
                 position: 'bottom left',
                 rounded:true,
-                msg: "Иногда <b>шаг навстречу</b> <br> другому - величайшее путешествие в <b>ЖИЗНИ</b>." 
+                msg: "Иногда <b>шаг навстречу</b> <br> другому - величайшее путешествие в <b>ЖИЗНИ</b>. <br>" 
                 
                 });
         })();
