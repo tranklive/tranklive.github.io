@@ -1,12 +1,12 @@
 {
-  "name": "TrankLive",
-  "short_name": "TrankLive",
+  "name": "Ukraina.Live",
+  "short_name": "Ukraina.Live",
   "lang": "en-US",
-  "start_url": "https://trank.live/index.html",
+  "start_url": "https://ukraina.live/index.html",
   "display": "standalone",
   "background_color": "#eee",
   "theme_color": "#eee",
-  "description": "TrankLive - Radio Station",
+  "description": "Ukraina.Live - Radio Station",
   "categories": ["mobile", "radio", "ecommerce"],
   "icons": [{
     "src": "img/icons/icon-72.png",
