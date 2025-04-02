@@ -131,7 +131,49 @@
                     <!-- Product Catagories-->
                     <section class="product-catagories mt-20">
                         <div class="container">
-			<div id="radiobells_container"><a href="https://www.radiobells.com/" rel="nofollow" id="RP_link">Онлайн радио</a> #radiobells_script_hash</div><link href="/css/style.css" type="text/css" rel="stylesheet" /><script type="text/javascript">var rad_backcolor="#f4fffb78"; var rad_logo = "white"; var rad_autoplay = true; var rad_width = "responsive"; var rad_width_px = 330;var rad_stations =[['https://relay.radiotoolkit.com/spdeep','VOCAL DEEP','soundparkdeep'],['https://relay.radiotoolkit.com/rcmdeep','DEEP Wave','relaxclubmusic'],['http://air2.radiorecord.ru:9003/deep_320','Deep Mix','recorddeep'],['http://cast.loungefm.com.ua/chillout320','Chill-out Station','loungechillout'],['http://air2.radiorecord.ru:805/tm_320','Your Trancemission','trancemission']];</script><script type="text/javascript" src="https://www.radiobells.com/script/v2_1.js" charset="UTF-8"></script>  
+			<div id="radiobells_container">
+    <a href="https://www.radiobells.com/" id="RP_link">Онлайн радіо</a>
+</div>
+
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    try {
+        var rad_backcolor = "#f4fffb78";
+        var rad_logo = "white";
+        var rad_autoplay = true;
+        var rad_width = "responsive";
+        var rad_width_px = 330;
+
+        var rad_stations = [
+            ['https://relay.radiotoolkit.com/spdeep', 'VOCAL DEEP', 'soundparkdeep'],
+            ['https://relay.radiotoolkit.com/rcmdeep', 'DEEP Wave', 'relaxclubmusic'],
+            ['http://air2.radiorecord.ru:9003/deep_320', 'Deep Mix', 'recorddeep'],
+            ['http://cast.loungefm.com.ua/chillout320', 'Chill-out Station', 'loungechillout'],
+            ['http://air2.radiorecord.ru:805/tm_320', 'Your Trancemission', 'trancemission']
+        ];
+
+        var script = document.createElement("script");
+        script.src = "https://www.radiobells.com/script/v2_1.js";
+        script.charset = "UTF-8";
+        script.async = true;
+        script.onload = function() {
+            console.log("RadioBells script loaded successfully.");
+        };
+        script.onerror = function() {
+            console.error("RadioBells script failed to load.");
+            document.getElementById("radiobells_container").innerHTML += 
+                "<p>Не вдалося завантажити радіо. Спробуйте пізніше.</p>";
+        };
+
+        document.body.appendChild(script);
+    } catch (e) {
+        console.error("Помилка ініціалізації радіо: ", e);
+    }
+});
+</script>
+  
                     <section class="product-catagories mt-20">
                         <div class="container">                   
                             <div class="title-section d-flex align-items-center justify-content-between">
